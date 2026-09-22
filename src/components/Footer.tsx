@@ -15,9 +15,6 @@ export function Footer() {
           </span>
         </div>
         <nav className="flex gap-5 text-sm text-muted-foreground">
-          <a href="#features" className="hover:text-foreground">Features</a>
-          <a href="#how-it-works" className="hover:text-foreground">How it works</a>
-          <a href="#faq" className="hover:text-foreground">FAQ</a>
           <a href={waLink()} target="_blank" rel="noreferrer" className="hover:text-foreground">
             WhatsApp
           </a>

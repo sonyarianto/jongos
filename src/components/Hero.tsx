@@ -81,9 +81,6 @@ export function Hero() {
                 Start chatting <ArrowRight />
               </a>
             </Button>
-            <Button size="lg" variant="outline" asChild>
-              <a href="#how-it-works">See how it works</a>
-            </Button>
           </div>
           <p className="mt-4 -rotate-1 font-hand text-3xl text-fuchsia-600">
             psst… gratis, no install, just chat! ✌️
