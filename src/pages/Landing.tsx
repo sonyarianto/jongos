@@ -1,4 +1,3 @@
-import { FloatingWhatsApp } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
 import { Marquee } from "@/components/Marquee";
 import { Navbar } from "@/components/Navbar";
@@ -11,7 +10,6 @@ export function LandingPage() {
         <Hero />
         <Marquee />
       </main>
-      <FloatingWhatsApp />
     </div>
   );
 }
