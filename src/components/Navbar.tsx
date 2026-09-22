@@ -60,7 +60,7 @@ export function Navbar() {
             href={waLink()}
             target="_blank"
             rel="noreferrer"
-            className="mt-2 rounded-xl bg-[#25D366] px-3 py-2.5 text-center text-sm font-semibold text-white"
+            className="mt-2 rounded-xl bg-gradient-to-r from-violet-600 via-fuchsia-500 to-orange-400 px-3 py-2.5 text-center text-sm font-semibold text-white"
           >
             Chat on WhatsApp
           </a>

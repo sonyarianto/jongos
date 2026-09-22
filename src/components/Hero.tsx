@@ -57,9 +57,16 @@ export function Hero() {
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(60%_50%_at_50%_0%,rgba(168,85,247,0.18),transparent),radial-gradient(40%_35%_at_80%_10%,rgba(240,171,252,0.25),transparent),radial-gradient(40%_35%_at_15%_15%,rgba(252,211,77,0.2),transparent)]" />
       <div className="relative mx-auto grid max-w-6xl gap-12 px-4 pb-16 pt-14 sm:px-6 lg:grid-cols-2 lg:items-center lg:pt-20">
         <div>
-          <div className="flex flex-wrap gap-2">
-            <Badge>✨ Powered by Meta AI</Badge>
-            <Badge variant="secondary">No app to install</Badge>
+          <div className="flex flex-wrap gap-3">
+            <Badge className="-rotate-2 border-2 border-zinc-900 text-sm shadow-[3px_3px_0_#18181b]">
+              ✨ Powered by Meta AI
+            </Badge>
+            <Badge
+              variant="secondary"
+              className="rotate-1 border-2 border-zinc-900 text-sm shadow-[3px_3px_0_#18181b]"
+            >
+              No app to install
+            </Badge>
           </div>
           <h1 className="mt-5 text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
             Your everyday helper,{" "}
@@ -78,7 +85,10 @@ export function Hero() {
               <a href="#how-it-works">See how it works</a>
             </Button>
           </div>
-          <div className="mt-8 grid max-w-md grid-cols-3 gap-4 text-sm">
+          <p className="mt-4 -rotate-1 font-hand text-3xl text-fuchsia-600">
+            psst… gratis, no install, just chat! ✌️
+          </p>
+          <div className="mt-6 grid max-w-md grid-cols-3 gap-4 text-sm">
             <div className="flex items-center gap-2">
               <Clock className="h-4 w-4 text-violet-600" /> Replies in seconds
             </div>

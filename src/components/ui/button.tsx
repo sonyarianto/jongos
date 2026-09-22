@@ -11,7 +11,7 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         outline: "border border-input bg-background hover:bg-accent hover:text-accent-foreground",
         ghost: "hover:bg-accent hover:text-accent-foreground",
-        whatsapp: "bg-[#25D366] text-white shadow-lg shadow-green-500/25 hover:bg-[#1fb857] active:scale-[0.98]",
+        whatsapp: "bg-gradient-to-r from-violet-600 via-fuchsia-500 to-orange-400 text-white shadow-lg shadow-fuchsia-500/30 hover:shadow-fuchsia-500/50 hover:brightness-110 active:scale-[0.98]",
       },
       size: {
         default: "h-10 px-5 py-2",
