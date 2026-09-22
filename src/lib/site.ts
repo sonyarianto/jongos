@@ -9,13 +9,13 @@
  */
 
 export const site = {
-  name: "HelpMe",
+  name: "Jongos",
   tagline: "Your everyday helper, right inside WhatsApp",
   description:
-    "HelpMe is a friendly Meta AI-powered assistant on WhatsApp. Ask anything, get reminders, summaries, translations and to-dos — no app to install.",
+    "Jongos is a friendly Meta AI-powered assistant on WhatsApp. Ask anything, get reminders, summaries, translations and to-dos — no app to install.",
   // Official Meta AI WhatsApp number (+1 313 555 0002)
   whatsappNumber: "13135550002",
-  defaultMessage: "Hi! 👋 I found you via HelpMe — show me what you can do.",
+  defaultMessage: "Hi! 👋 I found you via Jongos — show me what you can do.",
 } as const;
 
 export function waLink(message: string = site.defaultMessage): string {

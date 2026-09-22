@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 const faqs = [
   {
     q: "Is this an official Meta / WhatsApp product?",
-    a: "No — HelpMe is a demo anchor page that deep-links into WhatsApp (wa.me) with prefilled prompts. When you're ready, connect it to the WhatsApp Cloud API + Meta AI backend.",
+    a: "No — Jongos is a demo anchor page that deep-links into WhatsApp (wa.me) with prefilled prompts. When you're ready, connect it to the WhatsApp Cloud API + Meta AI backend.",
   },
   {
     q: "Do I need to install anything?",

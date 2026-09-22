@@ -10,7 +10,7 @@ const features = [
   {
     icon: Bell,
     title: "Reminders & routines",
-    desc: "Morning plans, habits, nudges. Tell HelpMe once, it remembers the rhythm.",
+    desc: "Morning plans, habits, nudges. Tell Jongos once, it remembers the rhythm.",
   },
   {
     icon: ScanText,

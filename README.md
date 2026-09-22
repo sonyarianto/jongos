@@ -1,4 +1,4 @@
-# HelpMe — WhatsApp + Meta AI landing page
+# Jongos — WhatsApp + Meta AI landing page
 
 Simple, nice landing page built with **Vite + React + TypeScript + Tailwind CSS + shadcn/ui-style components + TanStack Router / Query**.
 

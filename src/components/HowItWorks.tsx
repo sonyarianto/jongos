@@ -13,7 +13,7 @@ const steps = [
     icon: Send,
     step: "2",
     title: "Say hi",
-    desc: "Hit send. HelpMe (Meta AI) replies instantly and learns your style.",
+    desc: "Hit send. Jongos (Meta AI) replies instantly and learns your style.",
   },
   {
     icon: QrCode,

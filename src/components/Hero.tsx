@@ -14,14 +14,14 @@ function PhoneMockup() {
               ✨
             </div>
             <div>
-              <p className="text-sm font-semibold leading-tight">HelpMe • Meta AI</p>
+              <p className="text-sm font-semibold leading-tight">Jongos • Meta AI</p>
               <p className="text-[11px] text-emerald-100">online • replies instantly</p>
             </div>
           </div>
         </div>
         <div className="chat-bg flex flex-col gap-2 p-3 text-[13px] leading-snug">
           <div className="max-w-[80%] rounded-xl rounded-tl-sm bg-white p-2.5 shadow">
-            Hi! I'm HelpMe 👋 Ask me anything — planning, summaries, reminders.
+            Hi! I'm Jongos 👋 Ask me anything — planning, summaries, reminders.
           </div>
           <div className="max-w-[80%] self-end rounded-xl rounded-tr-sm bg-[#DCF8C6] p-2.5 shadow">
             Plan my day: gym, deep work, dinner idea?
