@@ -3,7 +3,6 @@ const items = [
   "NO APP NEEDED",
   "FREE TO START",
   "REPLIES IN SECONDS",
-  "BAHASA & ENGLISH OK",
 ];
 
 export function Marquee() {
