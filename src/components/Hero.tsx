@@ -1,4 +1,4 @@
-import { ArrowRight, BadgeCheck, Clock, ShieldCheck, Sparkles } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { site, waLink } from "@/lib/site";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -84,21 +84,6 @@ export function Hero() {
           </div>
           <p className="mt-4 -rotate-1 font-hand text-3xl text-fuchsia-600">
             psst… gratis, no install, just chat! ✌️
-          </p>
-          <div className="mt-6 grid max-w-md grid-cols-3 gap-4 text-sm">
-            <div className="flex items-center gap-2">
-              <Clock className="h-4 w-4 text-violet-600" /> Replies in seconds
-            </div>
-            <div className="flex items-center gap-2">
-              <ShieldCheck className="h-4 w-4 text-fuchsia-600" /> Private by design
-            </div>
-            <div className="flex items-center gap-2">
-              <BadgeCheck className="h-4 w-4 text-amber-500" /> Free to start
-            </div>
-          </div>
-          <p className="mt-6 flex items-center gap-2 text-sm text-muted-foreground">
-            <Sparkles className="h-4 w-4" /> This page is your anchor — every button deep-links
-            into WhatsApp with a prefilled prompt.
           </p>
         </div>
         <PhoneMockup />
