@@ -3,7 +3,7 @@
 @theme {
   --font-display: "Fredoka", "Plus Jakarta Sans", system-ui, sans-serif;
   --font-hand: "Caveat", cursive;
-  --animate-marquee: marquee 22s linear infinite;
+  --animate-marquee: marquee 40s linear infinite;
 
   @keyframes marquee {
     from {
