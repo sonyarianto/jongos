@@ -12,7 +12,7 @@ export const site = {
   name: "Jongos",
   tagline: "Your everyday helper, right inside WhatsApp",
   description:
-    "Jongos is your assistant with a helpful skillset, helping you get things done and keep your life well organized.",
+    "Jongos is your personal assistant with a helpful skillset, helping you get things done and keep your life well organized.",
   // Official Meta AI WhatsApp number (+1 313 555 0002)
   whatsappNumber: "13135550002",
   defaultMessage: "Hi! 👋 I found you via Jongos — show me what you can do.",
