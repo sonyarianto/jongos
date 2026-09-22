@@ -80,7 +80,7 @@ export function Hero() {
   return (
     <section id="top" className="relative overflow-hidden">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(60%_50%_at_50%_0%,rgba(168,85,247,0.18),transparent),radial-gradient(40%_35%_at_80%_10%,rgba(240,171,252,0.25),transparent),radial-gradient(40%_35%_at_15%_15%,rgba(252,211,77,0.2),transparent)]" />
-      <div className="relative mx-auto grid max-w-6xl gap-12 px-4 pb-16 pt-14 sm:px-6 lg:grid-cols-2 lg:items-center lg:pt-20">
+      <div className="relative mx-auto grid max-w-6xl gap-12 px-4 pb-16 pt-24 sm:px-6 lg:grid-cols-2 lg:items-center lg:pt-20">
         <div>
           <div className="flex flex-wrap gap-3">
             <Badge className="-rotate-2 border-2 border-zinc-900 text-sm shadow-[3px_3px_0_#18181b]">
