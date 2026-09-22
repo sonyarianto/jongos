@@ -13,7 +13,7 @@ export function Marquee() {
           {[...items, ...items].map((t, i) => (
             <span
               key={i}
-              className="mx-6 font-display text-sm tracking-wider text-white drop-shadow-[2px_2px_0_rgba(0,0,0,0.35)]"
+              className="mx-6 font-display text-sm font-semibold tracking-wider text-white drop-shadow-[2px_2px_0_rgba(0,0,0,0.35)]"
             >
               ✦ {t}
             </span>
