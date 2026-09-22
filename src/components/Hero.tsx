@@ -100,7 +100,7 @@ export function Hero() {
             </span>
           </h1>
           <p className="mt-5 max-w-xl text-lg text-muted-foreground">{site.description}</p>
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+          <div className="mt-8 flex flex-col items-start gap-3 sm:flex-row">
             <Button size="lg" variant="whatsapp" asChild>
               <a href={waLink()} target="_blank" rel="noreferrer">
                 Chat on WhatsApp <ArrowRight />
