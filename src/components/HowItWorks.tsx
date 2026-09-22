@@ -27,7 +27,7 @@ export function HowItWorks() {
   return (
     <section id="how-it-works" className="border-y bg-muted/40">
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
-        <p className="text-sm font-semibold uppercase tracking-widest text-green-700">How it works</p>
+        <p className="text-sm font-semibold uppercase tracking-widest text-violet-600">How it works</p>
         <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
           From landing page → WhatsApp in 3 taps
         </h2>

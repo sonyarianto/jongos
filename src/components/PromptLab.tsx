@@ -19,7 +19,7 @@ export function PromptLab() {
 
   return (
     <section id="try-it" className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
-      <p className="text-sm font-semibold uppercase tracking-widest text-green-700">Try it</p>
+      <p className="text-sm font-semibold uppercase tracking-widest text-fuchsia-600">Try it</p>
       <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
         Tap a prompt → lands in WhatsApp
       </h2>

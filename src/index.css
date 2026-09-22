@@ -27,17 +27,17 @@
   --foreground: oklch(0.21 0.01 285);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.21 0.01 285);
-  --primary: oklch(0.62 0.19 148.16); /* WhatsApp-ish green */
+  --primary: oklch(0.55 0.25 292); /* vivid violet */
   --primary-foreground: oklch(0.99 0 0);
   --secondary: oklch(0.96 0.01 285);
   --secondary-foreground: oklch(0.21 0.01 285);
   --muted: oklch(0.96 0.01 285);
   --muted-foreground: oklch(0.55 0.02 285);
-  --accent: oklch(0.95 0.04 152);
-  --accent-foreground: oklch(0.25 0.08 150);
+  --accent: oklch(0.94 0.05 332); /* pink tint */
+  --accent-foreground: oklch(0.4 0.18 330);
   --border: oklch(0.92 0.01 285);
   --input: oklch(0.92 0.01 285);
-  --ring: oklch(0.62 0.19 148.16);
+  --ring: oklch(0.55 0.25 292);
 }
 
 .dark {
@@ -45,17 +45,17 @@
   --foreground: oklch(0.98 0 0);
   --card: oklch(0.22 0.01 285);
   --card-foreground: oklch(0.98 0 0);
-  --primary: oklch(0.7 0.18 148);
-  --primary-foreground: oklch(0.15 0.02 150);
+  --primary: oklch(0.7 0.22 292);
+  --primary-foreground: oklch(0.2 0.05 295);
   --secondary: oklch(0.28 0.02 285);
   --secondary-foreground: oklch(0.98 0 0);
   --muted: oklch(0.28 0.02 285);
   --muted-foreground: oklch(0.7 0.02 285);
-  --accent: oklch(0.28 0.06 150);
-  --accent-foreground: oklch(0.95 0.04 152);
+  --accent: oklch(0.32 0.12 325);
+  --accent-foreground: oklch(0.95 0.05 332);
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 12%);
-  --ring: oklch(0.7 0.18 148);
+  --ring: oklch(0.7 0.22 292);
 }
 
 @layer base {
@@ -70,6 +70,11 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+::selection {
+  background: oklch(0.8 0.15 330);
+  color: oklch(0.25 0.05 300);
 }
 
 /* WhatsApp chat pattern */
