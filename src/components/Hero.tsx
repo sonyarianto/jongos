@@ -108,7 +108,7 @@ export function Hero() {
             </Button>
           </div>
           <p className="mt-4 -rotate-1 font-hand text-3xl text-fuchsia-600">
-            gratis, no install, just chat! ✌️
+            free, no install, just chat! ✌️
           </p>
         </div>
         <PhoneMockup />
