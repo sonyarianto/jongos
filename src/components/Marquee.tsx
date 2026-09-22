@@ -7,8 +7,8 @@ const items = [
 
 export function Marquee() {
   return (
-    <div className="overflow-clip py-3">
-      <div className="-rotate-1 border-y-4 border-zinc-950 bg-gradient-to-r from-violet-600 via-fuchsia-500 to-amber-400 py-3">
+    <div className="overflow-clip py-5">
+      <div className="-mx-4 -rotate-1 border-y-4 border-zinc-950 bg-gradient-to-r from-violet-600 via-fuchsia-500 to-amber-400 py-3">
         <div className="flex w-max animate-marquee whitespace-nowrap">
           {[...items, ...items].map((t, i) => (
             <span
